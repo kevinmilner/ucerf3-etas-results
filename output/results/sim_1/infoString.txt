@@ -1,0 +1,86 @@
+Spontaneous/Historical ETAS Simulation
+
+randomSeed=-7605406432119964382
+
+histQkList.size()=220
+includeSpontEvents=true
+includeIndirectTriggering=true
+
+ERF Adjustable Paramteres:
+
+	Solution Input File = null
+	Apply Aftershock Filter = false
+	Aleatory Mag-Area StdDev = 0.0
+	Background Seismicity = Include
+	Treat Background Seismicity As = Point Sources
+	Use Quad Surfaces (otherwise gridded) = false
+	Fault Grid Spacing = 1.0
+	Probability Model = UCERF3 BPT
+	Aperiodicity = 0.5,0.4,0.3,0.2
+	Historic Open Interval = 117.4900706961239
+	BPT Averaging Type = AveRI and AveNormTimeSince
+
+ERF StartTime: 6/28/1992; hr=11; min=57; sec=35
+
+ERF TimeSpan Duration: 10.0 years
+
+ETAS Paramteres:
+
+	k - ETAS Productivity = 0.004292394757465163
+	p - ETAS Temporal Decay = 1.07
+	c - ETAS Min Time = 0.00650145
+	q - ETAS Distance Decay = 1.96
+	d - ETAS Min Distance = 0.79
+	U3ETAS Probability Model = FullTD
+	Impose GR Sampling = false
+	Apply Gridded Seis Correction = true
+	Apply SubSeis Rates to Supra Nucleation = true
+	TotalRateScaleFactor = 1.14
+
+Expected mean annual rate over timeSpan (per year) = 2734.7625
+
+Making ETAS_PrimaryEventSampler took 1 min
+The 218 input observed events produced 4866 primary aftershocks
+
+Spontaneous Events:
+
+	Fraction non-triggered = 0.6118264712325444	(sample num over total expected num)
+	numSpontEventsSampled=16732
+
+Fault system ruptures triggered (date	mag	name	nthRup,src,rupInSrc,fltSysRup):
+	9/12/1992	mag=5.8987956	Inversion Src #32858; 6 SECTIONS BETWEEN San Andreas (Parkfield), Subsection 2 AND San Andreas (Parkfield), Subsection 7
+	nthRup=32858, srcIndex=32858, RupIndexInSource=0, fltSysRupIndex=32858	gen=1	parID=7351	parMag=4.85
+	11/20/1992	mag=7.847575	Inversion Src #221234; 55 SECTIONS BETWEEN Sierra Madre, Subsection 1 AND Imperial, Subsection 2
+	nthRup=221220, srcIndex=221220, RupIndexInSource=0, fltSysRupIndex=221234	gen=0	parID=-1 (spontaneous)
+	11/20/1992	mag=6.346336	Inversion Src #244471; 2 SECTIONS BETWEEN San Andreas (San Gorgonio Pass-Garnet HIll), Subsection 1 AND San Andreas (San Gorgonio Pass-Garnet HIll), Subsection 0
+	nthRup=244457, srcIndex=244457, RupIndexInSource=0, fltSysRupIndex=244471	gen=1	parID=8787	parMag=7.847575237094223
+	11/22/1992	mag=6.2231793	Inversion Src #243179; 2 SECTIONS BETWEEN San Andreas (San Bernardino S), Subsection 5 AND San Andreas (San Bernardino S), Subsection 6
+	nthRup=243165, srcIndex=243165, RupIndexInSource=0, fltSysRupIndex=243179	gen=2	parID=35542	parMag=3.05
+	1/29/1993	mag=6.68068	Inversion Src #251338; 13 SECTIONS BETWEEN Great Valley 07 (Orestimba), Subsection 0 AND Great Valley 07 (Orestimba), Subsection 12
+	nthRup=251324, srcIndex=251324, RupIndexInSource=0, fltSysRupIndex=251338	gen=0	parID=-1 (spontaneous)
+	11/25/1993	mag=6.2031255	Inversion Src #20943; 2 SECTIONS BETWEEN San Andreas (Cholame) rev, Subsection 2 AND San Andreas (Cholame) rev, Subsection 3
+	nthRup=20943, srcIndex=20943, RupIndexInSource=0, fltSysRupIndex=20943	gen=0	parID=-1 (spontaneous)
+	8/4/1994	mag=6.0623145	Inversion Src #251999; 2 SECTIONS BETWEEN Ortigalita (North), Subsection 1 AND Ortigalita (North), Subsection 0
+	nthRup=251985, srcIndex=251985, RupIndexInSource=0, fltSysRupIndex=251999	gen=0	parID=-1 (spontaneous)
+	8/26/1994	mag=6.4580173	Inversion Src #49252; 10 SECTIONS BETWEEN San Andreas (Creeping Section) 2011 CFM, Subsection 8 AND Calaveras (So) - Paicines extension 2011 CFM, Subsection 2
+	nthRup=49238, srcIndex=49238, RupIndexInSource=0, fltSysRupIndex=49252	gen=0	parID=-1 (spontaneous)
+	8/27/1994	mag=6.5201855	Inversion Src #48451; 13 SECTIONS BETWEEN San Andreas (Creeping Section) 2011 CFM, Subsection 8 AND San Andreas (Creeping Section) 2011 CFM, Subsection 20
+	nthRup=48437, srcIndex=48437, RupIndexInSource=0, fltSysRupIndex=48451	gen=1	parID=16177	parMag=6.458017325256032
+	9/21/1994	mag=6.3916874	Inversion Src #252016; 4 SECTIONS BETWEEN Ortigalita (North), Subsection 4 AND Ortigalita (North), Subsection 7
+	nthRup=252002, srcIndex=252002, RupIndexInSource=0, fltSysRupIndex=252016	gen=0	parID=-1 (spontaneous)
+
+Looping over events took 450 secs
+
+Total num ruptures: 65550
+Num spontaneous: 16732
+Num 1st Gen: 25816
+Num 2nd Gen: 12635
+Num 3rd Gen: 5856
+Num 4th Gen: 2437
+Num 5th Gen: 1184
+Num 6th Gen: 406
+Num 7th Gen: 320
+Num 8th Gen: 117
+Num 9th Gen: 35
+Num 10th Gen: 8
+

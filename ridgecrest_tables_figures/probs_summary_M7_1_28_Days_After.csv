@@ -1,0 +1,11 @@
+Name,1 Week Prob M≥7.1,1 Month Prob M≥7.1,1 Month Prob M≥7,1 Month Mean Num M≥3.5,1 Month Median Num M≥3.5,1 Month Garlock Prob M≥7,1 Month SAF Mojave Prob M≥7
+"[M7.1, ShakeMap Source, 28 Days After](../2019_09_12-ComCatM7p1_ci38457511_28DaysAfter_ShakeMapSurfaces/README.md)",0.092%,0.364%,0.434%,27.2,23.0,0.325%,0.108%
+"[M7.1, ShakeMap Source, 28 Days After (Early Catalog)](../2019_08_03-ComCatM7p1_ci38457511_28DaysAfter_ShakeMapSurfaces-noSpont-full_td-scale1.14/README.md)",0.086%,0.333%,0.390%,26.3,22.0,0.276%,0.099%
+"[M7.1, Point Source, 28 Days After](../2019_08_20-ComCatM7p1_ci38457511_28DaysAfter_PointSources-noSpont-full_td-scale1.14/README.md)",0.067%,0.210%,0.273%,25.8,22.0,0.148%,0.094%
+"[M7.1, ShakeMap Source, No Faults, 28 Days After](../2019_08_20-ComCatM7p1_ci38457511_28DaysAfter_ShakeMapSurfaces_NoFaults-noSpont-poisson-griddedOnly/README.md)",0.191%,0.646%,0.807%,31.6,23.0,N/A,N/A
+"[M7.1, ShakeMap Source (Planar Extents), 28 Days After](../2019_09_09-ComCatM7p1_ci38457511_28DaysAfter_ShakeMapSurfaces_PlanarExtents/README.md)",0.136%,0.500%,0.566%,27.9,23.0,0.464%,0.113%
+"[M7.1, ShakeMap Source, Seq. Specific, 28 Days After](../2019_08_31-ComCatM7p1_ci38457511_28DaysAfter_MainshockLog10_k_2p3_ShakeMapSurfaces_Log10_k_3p03_p1p15_c0p002/README.md)",0.043%,0.157%,0.187%,10.8,10.0,0.152%,0.093%
+"[M7.1, KML Surface Rupture Source, 28 Days After](../2019_09_18-ComCatM7p1_ci38457511_28DaysAfter_KMLSurface_ShakeMapSurface/README.md)",0.087%,0.310%,0.398%,27.1,23.0,0.248%,0.106%
+"[M7.1, KML Surface Rupture Source (Field Verified Only), 28 Days After](../2019_09_18-ComCatM7p1_ci38457511_28DaysAfter_KMLSurface_ShakeMapSurface_FieldVerified/README.md)",0.102%,0.310%,0.392%,27.0,23.0,0.254%,0.097%
+Range,[0.043% 0.191%],[0.157% 0.646%],[0.187% 0.807%],[10.8 31.6],[10.0 23.0],[0.148% 0.464%],[0.093% 0.113%]
+"Gain (w.r.t. M7.1, ShakeMap Source, 28 Days After)",[0.47 2.08],[0.43 1.77],[0.43 1.86],[0.40 1.16],[0.43 1.00],[0.46 1.43],[0.86 1.05]

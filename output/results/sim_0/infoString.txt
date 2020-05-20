@@ -1,0 +1,84 @@
+Spontaneous/Historical ETAS Simulation
+
+randomSeed=8570643845964877617
+
+histQkList.size()=220
+includeSpontEvents=true
+includeIndirectTriggering=true
+
+ERF Adjustable Paramteres:
+
+	Solution Input File = null
+	Apply Aftershock Filter = false
+	Aleatory Mag-Area StdDev = 0.0
+	Background Seismicity = Include
+	Treat Background Seismicity As = Point Sources
+	Use Quad Surfaces (otherwise gridded) = false
+	Fault Grid Spacing = 1.0
+	Probability Model = UCERF3 BPT
+	Aperiodicity = 0.5,0.4,0.3,0.2
+	Historic Open Interval = 117.4900706961239
+	BPT Averaging Type = AveRI and AveNormTimeSince
+
+ERF StartTime: 6/28/1992; hr=11; min=57; sec=35
+
+ERF TimeSpan Duration: 10.0 years
+
+ETAS Paramteres:
+
+	k - ETAS Productivity = 0.004292394757465163
+	p - ETAS Temporal Decay = 1.07
+	c - ETAS Min Time = 0.00650145
+	q - ETAS Distance Decay = 1.96
+	d - ETAS Min Distance = 0.79
+	U3ETAS Probability Model = FullTD
+	Impose GR Sampling = false
+	Apply Gridded Seis Correction = true
+	Apply SubSeis Rates to Supra Nucleation = true
+	TotalRateScaleFactor = 1.14
+
+Expected mean annual rate over timeSpan (per year) = 2734.7625
+
+Making ETAS_PrimaryEventSampler took 1 min
+The 218 input observed events produced 4891 primary aftershocks
+
+Spontaneous Events:
+
+	Fraction non-triggered = 0.6199076121686186	(sample num over total expected num)
+	numSpontEventsSampled=16953
+
+Fault system ruptures triggered (date	mag	name	nthRup,src,rupInSrc,fltSysRup):
+	6/28/1992	mag=6.3310986	Inversion Src #245776; 2 SECTIONS BETWEEN Hector Mine, Subsection 1 AND Hector Mine, Subsection 0
+	nthRup=245762, srcIndex=245762, RupIndexInSource=0, fltSysRupIndex=245776	gen=1	parID=218	parMag=7.28
+	2/20/1993	mag=6.3001337	Inversion Src #196267; 2 SECTIONS BETWEEN San Andreas (Mojave S), Subsection 11 AND San Andreas (Mojave S), Subsection 10
+	nthRup=196253, srcIndex=196253, RupIndexInSource=0, fltSysRupIndex=196267	gen=0	parID=-1 (spontaneous)
+	1/7/1995	mag=6.164753	Inversion Src #100937; 2 SECTIONS BETWEEN Great Valley 05 Pittsburg - Kirby Hills alt1, Subsection 2 AND Great Valley 05 Pittsburg - Kirby Hills alt1, Subsection 3
+	nthRup=100923, srcIndex=100923, RupIndexInSource=0, fltSysRupIndex=100937	gen=1	parID=10159	parMag=3.45
+	5/30/1995	mag=6.953793	Inversion Src #90513; 12 SECTIONS BETWEEN Calaveras (Central) 2011 CFM, Subsection 5 AND Calaveras (No) 2011 CFM, Subsection 0
+	nthRup=90499, srcIndex=90499, RupIndexInSource=0, fltSysRupIndex=90513	gen=0	parID=-1 (spontaneous)
+	5/30/1995	mag=6.0868263	Inversion Src #110696; 7 SECTIONS BETWEEN Hayward (So) extension 2011 CFM, Subsection 0 AND Hayward (So) extension 2011 CFM, Subsection 6
+	nthRup=110682, srcIndex=110682, RupIndexInSource=0, fltSysRupIndex=110696	gen=1	parID=16079	parMag=6.9537931205948755
+	6/1/1995	mag=6.8182178	Inversion Src #102168; 8 SECTIONS BETWEEN Hayward (So) 2011 CFM, Subsection 5 AND Hayward (So) extension 2011 CFM, Subsection 5
+	nthRup=102154, srcIndex=102154, RupIndexInSource=0, fltSysRupIndex=102168	gen=4	parID=36054	parMag=3.65
+	8/26/1998	mag=6.6126814	Inversion Src #194284; 4 SECTIONS BETWEEN San Andreas (San Bernardino N), Subsection 1 AND San Andreas (Mojave S), Subsection 13
+	nthRup=194270, srcIndex=194270, RupIndexInSource=0, fltSysRupIndex=194284	gen=4	parID=45675	parMag=2.75
+	7/8/2001	mag=7.143975	Inversion Src #114472; 14 SECTIONS BETWEEN San Gregorio (North) 2011 CFM, Subsection 11 AND San Gregorio (South) 2011 CFM, Subsection 13
+	nthRup=114458, srcIndex=114458, RupIndexInSource=0, fltSysRupIndex=114472	gen=0	parID=-1 (spontaneous)
+	2/5/2002	mag=6.2376847	Inversion Src #209216; 2 SECTIONS BETWEEN San Juan, Subsection 1 AND San Juan, Subsection 0
+	nthRup=209202, srcIndex=209202, RupIndexInSource=0, fltSysRupIndex=209216	gen=0	parID=-1 (spontaneous)
+
+Looping over events took 400 secs
+
+Total num ruptures: 55542
+Num spontaneous: 16953
+Num 1st Gen: 16999
+Num 2nd Gen: 8270
+Num 3rd Gen: 3743
+Num 4th Gen: 3143
+Num 5th Gen: 3654
+Num 6th Gen: 1522
+Num 7th Gen: 545
+Num 8th Gen: 394
+Num 9th Gen: 260
+Num 10th Gen: 50
+

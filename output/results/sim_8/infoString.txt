@@ -1,0 +1,90 @@
+Spontaneous/Historical ETAS Simulation
+
+randomSeed=1508094354289873186
+
+histQkList.size()=220
+includeSpontEvents=true
+includeIndirectTriggering=true
+
+ERF Adjustable Paramteres:
+
+	Solution Input File = null
+	Apply Aftershock Filter = false
+	Aleatory Mag-Area StdDev = 0.0
+	Background Seismicity = Include
+	Treat Background Seismicity As = Point Sources
+	Use Quad Surfaces (otherwise gridded) = false
+	Fault Grid Spacing = 1.0
+	Probability Model = UCERF3 BPT
+	Aperiodicity = 0.5,0.4,0.3,0.2
+	Historic Open Interval = 117.4900706961239
+	BPT Averaging Type = AveRI and AveNormTimeSince
+
+ERF StartTime: 6/28/1992; hr=11; min=57; sec=35
+
+ERF TimeSpan Duration: 10.0 years
+
+ETAS Paramteres:
+
+	k - ETAS Productivity = 0.004292394757465163
+	p - ETAS Temporal Decay = 1.07
+	c - ETAS Min Time = 0.00650145
+	q - ETAS Distance Decay = 1.96
+	d - ETAS Min Distance = 0.79
+	U3ETAS Probability Model = FullTD
+	Impose GR Sampling = false
+	Apply Gridded Seis Correction = true
+	Apply SubSeis Rates to Supra Nucleation = true
+	TotalRateScaleFactor = 1.14
+
+Expected mean annual rate over timeSpan (per year) = 2734.7625
+
+Making ETAS_PrimaryEventSampler took 1 min
+The 218 input observed events produced 4838 primary aftershocks
+
+Spontaneous Events:
+
+	Fraction non-triggered = 0.6139473136501566	(sample num over total expected num)
+	numSpontEventsSampled=16790
+
+Fault system ruptures triggered (date	mag	name	nthRup,src,rupInSrc,fltSysRup):
+	10/17/1992	mag=6.857704	Inversion Src #101079; 7 SECTIONS BETWEEN Hayward (So) 2011 CFM, Subsection 0 AND Hayward (So) 2011 CFM, Subsection 6
+	nthRup=101065, srcIndex=101065, RupIndexInSource=0, fltSysRupIndex=101079	gen=0	parID=-1 (spontaneous)
+	10/21/1992	mag=6.9394183	Inversion Src #93042; 16 SECTIONS BETWEEN Calaveras (No) 2011 CFM, Subsection 0 AND Hayward (So) extension 2011 CFM, Subsection 0
+	nthRup=93028, srcIndex=93028, RupIndexInSource=0, fltSysRupIndex=93042	gen=1	parID=14068	parMag=6.857704095725215
+	11/23/1992	mag=6.018107	Inversion Src #170132; 2 SECTIONS BETWEEN Mendocino, Subsection 5 AND Mendocino, Subsection 6
+	nthRup=170118, srcIndex=170118, RupIndexInSource=0, fltSysRupIndex=170132	gen=2	parID=1838	parMag=4.550000000000001
+	11/23/1992	mag=5.969686	Inversion Src #100976; 2 SECTIONS BETWEEN Greenville (No) 2011 CFM, Subsection 5 AND Greenville (No) 2011 CFM, Subsection 6
+	nthRup=100962, srcIndex=100962, RupIndexInSource=0, fltSysRupIndex=100976	gen=2	parID=25261	parMag=6.93941851145892
+	5/22/1994	mag=6.387572	Inversion Src #186625; 2 SECTIONS BETWEEN Mission Hills 2011, Subsection 1 AND Mission Hills 2011, Subsection 0
+	nthRup=186611, srcIndex=186611, RupIndexInSource=0, fltSysRupIndex=186625	gen=0	parID=-1 (spontaneous)
+	4/24/1995	mag=6.771525	Inversion Src #167921; 9 SECTIONS BETWEEN San Andreas (Offshore) 2011 CFM, Subsection 22 AND Mendocino, Subsection 6
+	nthRup=167907, srcIndex=167907, RupIndexInSource=0, fltSysRupIndex=167921	gen=1	parID=214	parMag=7.15
+	5/3/1999	mag=6.476883	Inversion Src #153667; 4 SECTIONS BETWEEN San Andreas (North Coast) 2011 CFM, Subsection 23 AND San Andreas (North Coast) 2011 CFM, Subsection 26
+	nthRup=153653, srcIndex=153653, RupIndexInSource=0, fltSysRupIndex=153667	gen=0	parID=-1 (spontaneous)
+	6/26/1999	mag=6.190334	Inversion Src #84620; 6 SECTIONS BETWEEN Calaveras (So) - Paicines extension 2011 CFM, Subsection 3 AND Calaveras (So) - Paicines extension 2011 CFM, Subsection 8
+	nthRup=84606, srcIndex=84606, RupIndexInSource=0, fltSysRupIndex=84620	gen=0	parID=-1 (spontaneous)
+	8/3/1999	mag=6.2241535	Inversion Src #48448; 10 SECTIONS BETWEEN San Andreas (Creeping Section) 2011 CFM, Subsection 8 AND San Andreas (Creeping Section) 2011 CFM, Subsection 17
+	nthRup=48434, srcIndex=48434, RupIndexInSource=0, fltSysRupIndex=48448	gen=0	parID=-1 (spontaneous)
+	1/10/2001	mag=6.0140595	Inversion Src #31658; 7 SECTIONS BETWEEN San Andreas (Parkfield), Subsection 1 AND San Andreas (Parkfield), Subsection 7
+	nthRup=31658, srcIndex=31658, RupIndexInSource=0, fltSysRupIndex=31658	gen=2	parID=46151	parMag=4.75
+	3/24/2001	mag=6.018107	Inversion Src #170980; 2 SECTIONS BETWEEN Mendocino, Subsection 27 AND Mendocino, Subsection 28
+	nthRup=170966, srcIndex=170966, RupIndexInSource=0, fltSysRupIndex=170980	gen=0	parID=-1 (spontaneous)
+	6/17/2001	mag=6.8760014	Inversion Src #246172; 7 SECTIONS BETWEEN Manix-Afton Hills, Subsection 0 AND Cady, Subsection 4
+	nthRup=246158, srcIndex=246158, RupIndexInSource=0, fltSysRupIndex=246172	gen=2	parID=3428	parMag=4.65
+
+Looping over events took 343 secs
+
+Total num ruptures: 49908
+Num spontaneous: 16790
+Num 1st Gen: 14423
+Num 2nd Gen: 9062
+Num 3rd Gen: 5466
+Num 4th Gen: 2373
+Num 5th Gen: 1073
+Num 6th Gen: 520
+Num 7th Gen: 157
+Num 8th Gen: 23
+Num 9th Gen: 3
+Num 10th Gen: 9
+

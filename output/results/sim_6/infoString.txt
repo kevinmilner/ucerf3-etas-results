@@ -1,0 +1,84 @@
+Spontaneous/Historical ETAS Simulation
+
+randomSeed=7010362046608774576
+
+histQkList.size()=220
+includeSpontEvents=true
+includeIndirectTriggering=true
+
+ERF Adjustable Paramteres:
+
+	Solution Input File = null
+	Apply Aftershock Filter = false
+	Aleatory Mag-Area StdDev = 0.0
+	Background Seismicity = Include
+	Treat Background Seismicity As = Point Sources
+	Use Quad Surfaces (otherwise gridded) = false
+	Fault Grid Spacing = 1.0
+	Probability Model = UCERF3 BPT
+	Aperiodicity = 0.5,0.4,0.3,0.2
+	Historic Open Interval = 117.4900706961239
+	BPT Averaging Type = AveRI and AveNormTimeSince
+
+ERF StartTime: 6/28/1992; hr=11; min=57; sec=35
+
+ERF TimeSpan Duration: 10.0 years
+
+ETAS Paramteres:
+
+	k - ETAS Productivity = 0.004292394757465163
+	p - ETAS Temporal Decay = 1.07
+	c - ETAS Min Time = 0.00650145
+	q - ETAS Distance Decay = 1.96
+	d - ETAS Min Distance = 0.79
+	U3ETAS Probability Model = FullTD
+	Impose GR Sampling = false
+	Apply Gridded Seis Correction = true
+	Apply SubSeis Rates to Supra Nucleation = true
+	TotalRateScaleFactor = 1.14
+
+Expected mean annual rate over timeSpan (per year) = 2734.7625
+
+Making ETAS_PrimaryEventSampler took 1 min
+The 218 input observed events produced 4802 primary aftershocks
+
+Spontaneous Events:
+
+	Fraction non-triggered = 0.6154830960904965	(sample num over total expected num)
+	numSpontEventsSampled=16832
+
+Fault system ruptures triggered (date	mag	name	nthRup,src,rupInSrc,fltSysRup):
+	12/12/1992	mag=6.680496	Inversion Src #226480; 8 SECTIONS BETWEEN Newport-Inglewood (Offshore), Subsection 3 AND Newport-Inglewood (Offshore), Subsection 10
+	nthRup=226466, srcIndex=226466, RupIndexInSource=0, fltSysRupIndex=226480	gen=0	parID=-1 (spontaneous)
+	1/12/1993	mag=6.4624553	Inversion Src #169109; 5 SECTIONS BETWEEN Mendocino, Subsection 2 AND Mendocino, Subsection 6
+	nthRup=169095, srcIndex=169095, RupIndexInSource=0, fltSysRupIndex=169109	gen=0	parID=-1 (spontaneous)
+	8/18/1993	mag=7.179667	Inversion Src #234321; 14 SECTIONS BETWEEN Mission Ridge-Arroyo Parida-Santa Ana, Subsection 10 AND Red Mountain, Subsection 10
+	nthRup=234307, srcIndex=234307, RupIndexInSource=0, fltSysRupIndex=234321	gen=0	parID=-1 (spontaneous)
+	8/21/1993	mag=5.8139777	Inversion Src #234286; 2 SECTIONS BETWEEN Mission Ridge-Arroyo Parida-Santa Ana, Subsection 1 AND Mission Ridge-Arroyo Parida-Santa Ana, Subsection 0
+	nthRup=234272, srcIndex=234272, RupIndexInSource=0, fltSysRupIndex=234286	gen=2	parID=32039	parMag=5.3500000000000005
+	1/11/1994	mag=5.8987956	Inversion Src #32858; 6 SECTIONS BETWEEN San Andreas (Parkfield), Subsection 2 AND San Andreas (Parkfield), Subsection 7
+	nthRup=32858, srcIndex=32858, RupIndexInSource=0, fltSysRupIndex=32858	gen=0	parID=-1 (spontaneous)
+	8/20/1996	mag=6.0671144	Inversion Src #233800; 3 SECTIONS BETWEEN Santa Rosa Island, Subsection 11 AND Santa Rosa Island, Subsection 13
+	nthRup=233786, srcIndex=233786, RupIndexInSource=0, fltSysRupIndex=233800	gen=2	parID=45156	parMag=2.65
+	2/7/1998	mag=6.098612	Inversion Src #30472; 7 SECTIONS BETWEEN San Andreas (Parkfield), Subsection 0 AND San Andreas (Parkfield), Subsection 6
+	nthRup=30472, srcIndex=30472, RupIndexInSource=0, fltSysRupIndex=30472	gen=2	parID=47657	parMag=3.05
+	10/24/1999	mag=6.2110257	Inversion Src #168346; 3 SECTIONS BETWEEN Mendocino, Subsection 0 AND Mendocino, Subsection 2
+	nthRup=168332, srcIndex=168332, RupIndexInSource=0, fltSysRupIndex=168346	gen=2	parID=1082	parMag=2.9499999999999997
+	1/9/2002	mag=5.9489827	Inversion Src #181958; 3 SECTIONS BETWEEN Hosgri (Extension), Subsection 5 AND Hosgri (Extension), Subsection 3
+	nthRup=181944, srcIndex=181944, RupIndexInSource=0, fltSysRupIndex=181958	gen=1	parID=15518	parMag=2.55
+
+Looping over events took 357 secs
+
+Total num ruptures: 54328
+Num spontaneous: 16832
+Num 1st Gen: 16891
+Num 2nd Gen: 10138
+Num 3rd Gen: 5612
+Num 4th Gen: 3109
+Num 5th Gen: 1134
+Num 6th Gen: 417
+Num 7th Gen: 107
+Num 8th Gen: 44
+Num 9th Gen: 14
+Num 10th Gen: 1
+

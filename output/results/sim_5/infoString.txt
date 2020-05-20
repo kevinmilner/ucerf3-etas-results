@@ -1,0 +1,76 @@
+Spontaneous/Historical ETAS Simulation
+
+randomSeed=-7355144360444615204
+
+histQkList.size()=220
+includeSpontEvents=true
+includeIndirectTriggering=true
+
+ERF Adjustable Paramteres:
+
+	Solution Input File = null
+	Apply Aftershock Filter = false
+	Aleatory Mag-Area StdDev = 0.0
+	Background Seismicity = Include
+	Treat Background Seismicity As = Point Sources
+	Use Quad Surfaces (otherwise gridded) = false
+	Fault Grid Spacing = 1.0
+	Probability Model = UCERF3 BPT
+	Aperiodicity = 0.5,0.4,0.3,0.2
+	Historic Open Interval = 117.4900706961239
+	BPT Averaging Type = AveRI and AveNormTimeSince
+
+ERF StartTime: 6/28/1992; hr=11; min=57; sec=35
+
+ERF TimeSpan Duration: 10.0 years
+
+ETAS Paramteres:
+
+	k - ETAS Productivity = 0.004292394757465163
+	p - ETAS Temporal Decay = 1.07
+	c - ETAS Min Time = 0.00650145
+	q - ETAS Distance Decay = 1.96
+	d - ETAS Min Distance = 0.79
+	U3ETAS Probability Model = FullTD
+	Impose GR Sampling = false
+	Apply Gridded Seis Correction = true
+	Apply SubSeis Rates to Supra Nucleation = true
+	TotalRateScaleFactor = 1.14
+
+Expected mean annual rate over timeSpan (per year) = 2734.7625
+
+Making ETAS_PrimaryEventSampler took 1 min
+The 218 input observed events produced 4775 primary aftershocks
+
+Spontaneous Events:
+
+	Fraction non-triggered = 0.617201709773734	(sample num over total expected num)
+	numSpontEventsSampled=16879
+
+Fault system ruptures triggered (date	mag	name	nthRup,src,rupInSrc,fltSysRup):
+	4/27/1995	mag=7.647054	Inversion Src #247040; 44 SECTIONS BETWEEN San Gorgonio Pass, Subsection 2 AND Imperial, Subsection 1
+	nthRup=247026, srcIndex=247026, RupIndexInSource=0, fltSysRupIndex=247040	gen=0	parID=-1 (spontaneous)
+	4/27/1995	mag=6.392554	Inversion Src #245607; 2 SECTIONS BETWEEN Pinto Mtn, Subsection 9 AND Pinto Mtn, Subsection 10
+	nthRup=245593, srcIndex=245593, RupIndexInSource=0, fltSysRupIndex=245607	gen=3	parID=36634	parMag=4.85
+	4/29/1995	mag=6.8318944	Inversion Src #241894; 7 SECTIONS BETWEEN San Andreas (San Bernardino S), Subsection 0 AND San Andreas (San Bernardino S), Subsection 6
+	nthRup=241880, srcIndex=241880, RupIndexInSource=0, fltSysRupIndex=241894	gen=1	parID=13252	parMag=7.64705439588221
+	12/26/1996	mag=6.380031	Inversion Src #5332; 3 SECTIONS BETWEEN Hunter Mountain-Saline Valley, Subsection 10 AND Hunter Mountain-Saline Valley, Subsection 12
+	nthRup=5332, srcIndex=5332, RupIndexInSource=0, fltSysRupIndex=5332	gen=3	parID=46156	parMag=4.550000000000001
+	4/1/1998	mag=6.856736	Inversion Src #250465; 6 SECTIONS BETWEEN Cerro Prieto, Subsection 6 AND Cerro Prieto, Subsection 11
+	nthRup=250451, srcIndex=250451, RupIndexInSource=0, fltSysRupIndex=250465	gen=0	parID=-1 (spontaneous)
+
+Looping over events took 228 secs
+
+Total num ruptures: 55738
+Num spontaneous: 16879
+Num 1st Gen: 20072
+Num 2nd Gen: 10442
+Num 3rd Gen: 4358
+Num 4th Gen: 2436
+Num 5th Gen: 1081
+Num 6th Gen: 331
+Num 7th Gen: 107
+Num 8th Gen: 23
+Num 9th Gen: 7
+Num 10th Gen: 1
+

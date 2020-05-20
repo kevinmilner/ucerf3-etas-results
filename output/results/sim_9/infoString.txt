@@ -1,0 +1,80 @@
+Spontaneous/Historical ETAS Simulation
+
+randomSeed=-932039818294608276
+
+histQkList.size()=220
+includeSpontEvents=true
+includeIndirectTriggering=true
+
+ERF Adjustable Paramteres:
+
+	Solution Input File = null
+	Apply Aftershock Filter = false
+	Aleatory Mag-Area StdDev = 0.0
+	Background Seismicity = Include
+	Treat Background Seismicity As = Point Sources
+	Use Quad Surfaces (otherwise gridded) = false
+	Fault Grid Spacing = 1.0
+	Probability Model = UCERF3 BPT
+	Aperiodicity = 0.5,0.4,0.3,0.2
+	Historic Open Interval = 117.4900706961239
+	BPT Averaging Type = AveRI and AveNormTimeSince
+
+ERF StartTime: 6/28/1992; hr=11; min=57; sec=35
+
+ERF TimeSpan Duration: 10.0 years
+
+ETAS Paramteres:
+
+	k - ETAS Productivity = 0.004292394757465163
+	p - ETAS Temporal Decay = 1.07
+	c - ETAS Min Time = 0.00650145
+	q - ETAS Distance Decay = 1.96
+	d - ETAS Min Distance = 0.79
+	U3ETAS Probability Model = FullTD
+	Impose GR Sampling = false
+	Apply Gridded Seis Correction = true
+	Apply SubSeis Rates to Supra Nucleation = true
+	TotalRateScaleFactor = 1.14
+
+Expected mean annual rate over timeSpan (per year) = 2734.7625
+
+Making ETAS_PrimaryEventSampler took 0 min
+The 218 input observed events produced 4771 primary aftershocks
+
+Spontaneous Events:
+
+	Fraction non-triggered = 0.6105466525322611	(sample num over total expected num)
+	numSpontEventsSampled=16697
+
+Fault system ruptures triggered (date	mag	name	nthRup,src,rupInSrc,fltSysRup):
+	3/2/1993	mag=6.1816497	Inversion Src #3085; 2 SECTIONS BETWEEN Garlock (East), Subsection 6 AND Garlock (East), Subsection 7
+	nthRup=3085, srcIndex=3085, RupIndexInSource=0, fltSysRupIndex=3085	gen=0	parID=-1 (spontaneous)
+	8/25/1994	mag=6.5201855	Inversion Src #48451; 13 SECTIONS BETWEEN San Andreas (Creeping Section) 2011 CFM, Subsection 8 AND San Andreas (Creeping Section) 2011 CFM, Subsection 20
+	nthRup=48437, srcIndex=48437, RupIndexInSource=0, fltSysRupIndex=48451	gen=0	parID=-1 (spontaneous)
+	12/30/1994	mag=6.11956	Inversion Src #30473; 8 SECTIONS BETWEEN San Andreas (Parkfield), Subsection 0 AND San Andreas (Parkfield), Subsection 7
+	nthRup=30473, srcIndex=30473, RupIndexInSource=0, fltSysRupIndex=30473	gen=1	parID=78	parMag=6.0
+	2/12/1996	mag=6.2110257	Inversion Src #169792; 3 SECTIONS BETWEEN Mendocino, Subsection 4 AND Mendocino, Subsection 6
+	nthRup=169778, srcIndex=169778, RupIndexInSource=0, fltSysRupIndex=169792	gen=1	parID=215	parMag=6.45
+	1/25/1998	mag=6.356768	Inversion Src #250156; 3 SECTIONS BETWEEN Blackwater, Subsection 8 AND Blackwater, Subsection 10
+	nthRup=250142, srcIndex=250142, RupIndexInSource=0, fltSysRupIndex=250156	gen=0	parID=-1 (spontaneous)
+	12/29/1998	mag=6.628068	Inversion Src #168350; 7 SECTIONS BETWEEN Mendocino, Subsection 0 AND Mendocino, Subsection 6
+	nthRup=168336, srcIndex=168336, RupIndexInSource=0, fltSysRupIndex=168350	gen=1	parID=214	parMag=7.15
+	12/10/2000	mag=6.250089	Inversion Src #252018; 3 SECTIONS BETWEEN Ortigalita (North), Subsection 5 AND Ortigalita (North), Subsection 7
+	nthRup=252004, srcIndex=252004, RupIndexInSource=0, fltSysRupIndex=252018	gen=5	parID=43606	parMag=5.35
+
+Looping over events took 203 secs
+
+Total num ruptures: 52940
+Num spontaneous: 16697
+Num 1st Gen: 14113
+Num 2nd Gen: 7744
+Num 3rd Gen: 3142
+Num 4th Gen: 6642
+Num 5th Gen: 2798
+Num 6th Gen: 1083
+Num 7th Gen: 492
+Num 8th Gen: 141
+Num 9th Gen: 63
+Num 10th Gen: 16
+

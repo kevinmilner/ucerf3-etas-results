@@ -1,0 +1,5 @@
+Name,1 Week Prob M≥7.1,1 Month Prob M≥7.1,1 Month Prob M≥7,1 Month Mean Num M≥3.5,1 Month Median Num M≥3.5,1 Month Garlock Prob M≥7,1 Month SAF Mojave Prob M≥7
+"[M6.4, Point Source, Just Before 7.1](../2019_09_19-ComCatM6p4_ci38443183_1p4DaysAfter_PointSources/README.md)",0.101%,0.164%,0.222%,23.6,20.0,0.103%,0.088%
+"[M6.4, ShakeMap Source, Just Before 7.1](../2019_09_19-ComCatM6p4_ci38443183_1p4DaysAfter_ShakeMapSurface/README.md)",0.146%,0.241%,0.287%,24.1,20.0,0.177%,0.093%
+Range,[0.101% 0.146%],[0.164% 0.241%],[0.222% 0.287%],[23.6 24.1],[20.0 20.0],[0.103% 0.177%],[0.088% 0.093%]
+"Gain (w.r.t. M6.4, ShakeMap Source, Just Before 7.1)",[0.69 1.00],[0.68 1.00],[0.77 1.00],[0.98 1.00],[1.00 1.00],[0.58 1.00],[0.95 1.00]

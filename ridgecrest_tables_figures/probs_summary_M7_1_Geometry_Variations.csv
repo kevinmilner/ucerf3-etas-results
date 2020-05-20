@@ -1,0 +1,14 @@
+Name,1 Week Prob M≥7.1,1 Month Prob M≥7.1,1 Month Prob M≥7,1 Month Mean Num M≥3.5,1 Month Median Num M≥3.5,1 Month Garlock Prob M≥7,1 Month SAF Mojave Prob M≥7
+"[M7.1, Point Source](../2019_08_20-ComCatM7p1_ci38457511_PointSources-noSpont-full_td-scale1.14/README.md)",0.978%,1.318%,1.800%,270.2,255.0,0.648%,0.132%
+"[M7.1, ShakeMap Source](../2019_09_04-ComCatM7p1_ci38457511_ShakeMapSurfaces/README.md)",3.014%,3.755%,4.550%,287.1,258.0,3.174%,0.315%
+"[M7.1, ShakeMap Source (Culled)](../2019_09_04-ComCatM7p1_ci38457511_ShakeMapSurfaces_CulledSurface/README.md)",3.462%,4.362%,5.048%,291.0,258.0,3.764%,0.363%
+"[M7.1, ShakeMap Source (Planar Extents)](../2019_09_03-ComCatM7p1_ci38457511_ShakeMapSurfaces_PlanarExtents/README.md)",4.416%,5.450%,6.277%,298.9,260.0,4.976%,0.434%
+"[M7.1, Prev ShakeMap Source (V10)](../2019_08_30-ComCatM7p1_ci38457511_ShakeMapSurface_Version10/README.md)",4.547%,5.619%,6.295%,298.9,260.0,5.079%,0.451%
+"[M7.1, First Finite Source](../2019_07_06-SearlessValleySequenceFiniteFault-noSpont-full_td-10yr-following-M7.1/README.md)",1.919%,2.419%,3.065%,279.2,257.0,1.727%,0.205%
+"[M7.1, Quad Source](../2019_07_11-ComCatM7p1_ci38457511_FiniteSurface-noSpont-full_td-scale1.14/README.md)",3.945%,4.870%,5.603%,294.1,258.0,4.384%,0.432%
+"[M7.1, Inverted Source](../2019_07_18-ComCatM7p1_ci38457511_InvertedSurface_ShakeMapSurface-noSpont-full_td-scale1.14/README.md)",4.784%,5.838%,6.613%,302.2,261.0,5.269%,0.476%
+"[M7.1, Inverted Source (minSlip=0.5)](../2019_08_20-ComCatM7p1_ci38457511_InvertedSurface_minSlip0p5_ShakeMapSurface-noSpont-full_td-scale1.14/README.md)",1.849%,2.354%,3.033%,279.8,258.0,1.545%,0.209%
+"[M7.1, KML Surface Rupture Source](../2019_09_17-ComCatM7p1_ci38457511_KMLSurface_ShakeMapSurface/README.md)",2.446%,3.185%,3.924%,286.4,259.0,2.335%,0.291%
+"[M7.1, KML Surface Rupture Source (Field Verified Only)](../2019_09_17-ComCatM7p1_ci38457511_KMLSurface_ShakeMapSurface_FieldVerified/README.md)",2.317%,3.048%,3.789%,285.5,259.0,2.246%,0.262%
+Range,[0.978% 4.784%],[1.318% 5.838%],[1.800% 6.613%],[270.2 302.2],[255.0 261.0],[0.648% 5.269%],[0.132% 0.476%]
+"Gain (w.r.t. M7.1, ShakeMap Source)",[0.32 1.59],[0.35 1.55],[0.40 1.45],[0.94 1.05],[0.99 1.01],[0.20 1.66],[0.42 1.51]

@@ -1,0 +1,78 @@
+Spontaneous/Historical ETAS Simulation
+
+randomSeed=5426006578067886217
+
+histQkList.size()=220
+includeSpontEvents=true
+includeIndirectTriggering=true
+
+ERF Adjustable Paramteres:
+
+	Solution Input File = null
+	Apply Aftershock Filter = false
+	Aleatory Mag-Area StdDev = 0.0
+	Background Seismicity = Include
+	Treat Background Seismicity As = Point Sources
+	Use Quad Surfaces (otherwise gridded) = false
+	Fault Grid Spacing = 1.0
+	Probability Model = UCERF3 BPT
+	Aperiodicity = 0.5,0.4,0.3,0.2
+	Historic Open Interval = 117.4900706961239
+	BPT Averaging Type = AveRI and AveNormTimeSince
+
+ERF StartTime: 6/28/1992; hr=11; min=57; sec=35
+
+ERF TimeSpan Duration: 10.0 years
+
+ETAS Paramteres:
+
+	k - ETAS Productivity = 0.004292394757465163
+	p - ETAS Temporal Decay = 1.07
+	c - ETAS Min Time = 0.00650145
+	q - ETAS Distance Decay = 1.96
+	d - ETAS Min Distance = 0.79
+	U3ETAS Probability Model = FullTD
+	Impose GR Sampling = false
+	Apply Gridded Seis Correction = true
+	Apply SubSeis Rates to Supra Nucleation = true
+	TotalRateScaleFactor = 1.14
+
+Expected mean annual rate over timeSpan (per year) = 2734.7625
+
+Making ETAS_PrimaryEventSampler took 0 min
+The 218 input observed events produced 4805 primary aftershocks
+
+Spontaneous Events:
+
+	Fraction non-triggered = 0.6215165271061175	(sample num over total expected num)
+	numSpontEventsSampled=16997
+
+Fault system ruptures triggered (date	mag	name	nthRup,src,rupInSrc,fltSysRup):
+	7/23/1993	mag=6.2110257	Inversion Src #171044; 3 SECTIONS BETWEEN Mendocino, Subsection 33 AND Mendocino, Subsection 35
+	nthRup=171030, srcIndex=171030, RupIndexInSource=0, fltSysRupIndex=171044	gen=0	parID=-1 (spontaneous)
+	3/28/1994	mag=6.481133	Inversion Src #244959; 3 SECTIONS BETWEEN Eureka Peak, Subsection 0 AND Eureka Peak, Subsection 2
+	nthRup=244945, srcIndex=244945, RupIndexInSource=0, fltSysRupIndex=244959	gen=0	parID=-1 (spontaneous)
+	12/16/1997	mag=6.3001337	Inversion Src #194918; 2 SECTIONS BETWEEN San Andreas (Mojave S), Subsection 14 AND San Andreas (Mojave S), Subsection 13
+	nthRup=194904, srcIndex=194904, RupIndexInSource=0, fltSysRupIndex=194918	gen=0	parID=-1 (spontaneous)
+	7/14/1998	mag=6.113826	Inversion Src #57336; 8 SECTIONS BETWEEN San Andreas (Creeping Section) 2011 CFM, Subsection 16 AND Calaveras (So) - Paicines extension 2011 CFM, Subsection 8
+	nthRup=57322, srcIndex=57322, RupIndexInSource=0, fltSysRupIndex=57336	gen=1	parID=20804	parMag=2.75
+	1/19/1999	mag=7.2344565	Inversion Src #13627; 13 SECTIONS BETWEEN San Andreas (Carrizo) rev, Subsection 4 AND San Andreas (Cholame) rev, Subsection 7
+	nthRup=13627, srcIndex=13627, RupIndexInSource=0, fltSysRupIndex=13627	gen=0	parID=-1 (spontaneous)
+	7/19/2000	mag=7.1341076	Inversion Src #24; 9 SECTIONS BETWEEN Airport Lake, Subsection 5 AND Little Lake, Subsection 0
+	nthRup=24, srcIndex=24, RupIndexInSource=0, fltSysRupIndex=24	gen=2	parID=39072	parMag=4.95
+
+Looping over events took 243 secs
+
+Total num ruptures: 51409
+Num spontaneous: 16997
+Num 1st Gen: 16315
+Num 2nd Gen: 8342
+Num 3rd Gen: 5728
+Num 4th Gen: 2294
+Num 5th Gen: 957
+Num 6th Gen: 365
+Num 7th Gen: 323
+Num 8th Gen: 68
+Num 9th Gen: 18
+Num 10th Gen: 2
+

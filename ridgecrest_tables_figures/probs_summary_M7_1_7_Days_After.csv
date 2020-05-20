@@ -1,0 +1,12 @@
+Name,1 Week Prob M≥7.1,1 Month Prob M≥7.1,1 Month Prob M≥7,1 Month Mean Num M≥3.5,1 Month Median Num M≥3.5,1 Month Garlock Prob M≥7,1 Month SAF Mojave Prob M≥7
+"[M7.1, ShakeMap Source, 7 Days After](../2019_09_12-ComCatM7p1_ci38457511_7DaysAfter_ShakeMapSurfaces/README.md)",0.390%,0.911%,1.095%,64.9,56.0,0.784%,0.143%
+"[M7.1, ShakeMap Source, 7 Days After (Early Catalog)](../2019_07_16-ComCatM7p1_ci38457511_7DaysAfter_ShakeMapSurfaces-noSpont-full_td-scale1.14/README.md)",0.329%,0.776%,0.941%,61.7,53.0,0.661%,0.136%
+"[M7.1, ShakeMap Source, No Faults, 7 Days After](../2019_09_12-ComCatM7p1_ci38457511_7DaysAfter_ShakeMapSurfaces_NoFaults/README.md)",0.589%,1.483%,1.853%,75.8,56.0,N/A,N/A
+"[M7.1, Point Source, 7 Days After](../2019_09_09-ComCatM7p1_ci38457511_7DaysAfter_PointSources/README.md)",0.187%,0.461%,0.585%,61.4,55.0,0.315%,0.112%
+"[M7.1, Quad Source, 7 Days After](../2019_07_12-ComCatM7p1_ci38457511_7DaysAfter_FiniteSurface-noSpont-full_td-scale1.14/README.md)",0.409%,0.973%,1.146%,62.7,53.0,0.881%,0.144%
+"[M7.1, ShakeMap Source (Planar Extents), 7 Days After](../2019_09_09-ComCatM7p1_ci38457511_7DaysAfter_ShakeMapSurfaces_PlanarExtents/README.md)",0.473%,1.145%,1.348%,66.4,56.0,1.046%,0.154%
+"[M7.1, ShakeMap Source, Seq. Specific, 7 Days After](../2019_09_09-ComCatM7p1_ci38457511_7DaysAfter_MainshockLog10_k_2p3_ShakeMapSurfaces_Log10_k_3p03_p1p15/README.md)",0.174%,0.424%,0.511%,28.2,27.0,0.382%,0.101%
+"[M7.1, KML Surface Rupture Source, 7 Days After](../2019_09_18-ComCatM7p1_ci38457511_7DaysAfter_KMLSurface_ShakeMapSurface/README.md)",0.290%,0.773%,0.936%,64.4,56.0,0.592%,0.132%
+"[M7.1, KML Surface Rupture Source (Field Verified Only), 7 Days After](../2019_09_18-ComCatM7p1_ci38457511_7DaysAfter_KMLSurface_ShakeMapSurface_FieldVerified/README.md)",0.309%,0.737%,0.906%,64.2,56.0,0.548%,0.120%
+Range,[0.174% 0.589%],[0.424% 1.483%],[0.511% 1.853%],[28.2 75.8],[27.0 56.0],[0.315% 1.046%],[0.101% 0.154%]
+"Gain (w.r.t. M7.1, ShakeMap Source, 7 Days After)",[0.45 1.51],[0.47 1.63],[0.47 1.69],[0.43 1.17],[0.48 1.00],[0.40 1.33],[0.71 1.08]
