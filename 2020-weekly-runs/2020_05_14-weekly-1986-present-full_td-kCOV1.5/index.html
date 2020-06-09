@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Aggregated ETAS Weekly Run Data Comparisons</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="markdown.css">
+<style>
+	.markdown-body {
+		box-sizing: border-box;
+		min-width: 200px;
+		max-width: 1000px;
+		margin: 0 auto;
+		padding: 45px;
+	}
+
+	@media (max-width: 767px) {
+		.markdown-body {
+			padding: 15px;
+		}
+	}
+</style>
+</head>
+<article class="markdown-body">
+<h1 id="aggregated-etas-weekly-run-data-comparisons">Aggregated ETAS Weekly Run Data Comparisons</h1>
+<h2 id="table-of-contents">Table Of Contents</h2>
+<ul>
+<li><a href="#data-vs-model-count-scatters">Data vs Model Count Scatters</a>
+<ul>
+<li><a href="#1-day-scatters">1 Day Scatters</a></li>
+<li><a href="#1-week-scatters">1 Week Scatters</a></li>
+<li><a href="#1-month-scatters">1 Month Scatters</a></li>
+<li><a href="#1-year-scatters">1 Year Scatters</a></li>
+</ul>
+</li>
+<li><a href="#data-divergence-over-time">Data Divergence Over Time</a>
+<ul>
+<li><a href="#cumulative-divergence-plots">Cumulative Divergence Plots</a></li>
+<li><a href="#daily-incremental-divergence-plots">Daily Incremental Divergence Plots</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="data-vs-model-count-scatters">Data vs Model Count Scatters</h2>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>Scatter plots of the actual event count (x-axis) vs the simulation mean or median value, for different durations and magnitude thresholds.</p>
+<h3 id="1-day-scatters">1 Day Scatters</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<table>
+<thead>
+<tr><th>Min Mag</th><th>Mean Simulation Values</th><th>Median Simulation Values</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>M&ge;2.5</strong></td><td><a href="resources/scatter_1day_m2.5_sim_means.png" target="_blank"><img src="resources/scatter_1day_m2.5_sim_means.png" alt="chart" /></a></td><td><a href="resources/scatter_1day_m2.5_sim_medians.png" target="_blank"><img src="resources/scatter_1day_m2.5_sim_medians.png" alt="chart" /></a></td></tr>
+<tr><td><strong>M&ge;3.0</strong></td><td><a href="resources/scatter_1day_m3.0_sim_means.png" target="_blank"><img src="resources/scatter_1day_m3.0_sim_means.png" alt="chart" /></a></td><td><a href="resources/scatter_1day_m3.0_sim_medians.png" target="_blank"><img src="resources/scatter_1day_m3.0_sim_medians.png" alt="chart" /></a></td></tr>
+<tr><td><strong>M&ge;4.0</strong></td><td><a href="resources/scatter_1day_m4.0_sim_means.png" target="_blank"><img src="resources/scatter_1day_m4.0_sim_means.png" alt="chart" /></a></td><td><a href="resources/scatter_1day_m4.0_sim_medians.png" target="_blank"><img src="resources/scatter_1day_m4.0_sim_medians.png" alt="chart" /></a></td></tr>
+<tr><td><strong>M&ge;5.0</strong></td><td><a href="resources/scatter_1day_m5.0_sim_means.png" target="_blank"><img src="resources/scatter_1day_m5.0_sim_means.png" alt="chart" /></a></td><td><a href="resources/scatter_1day_m5.0_sim_medians.png" target="_blank"><img src="resources/scatter_1day_m5.0_sim_medians.png" alt="chart" /></a></td></tr>
+<tr><td><strong>M&ge;6.0</strong></td><td><a href="resources/scatter_1day_m6.0_sim_means.png" target="_blank"><img src="resources/scatter_1day_m6.0_sim_means.png" alt="chart" /></a></td><td><a href="resources/scatter_1day_m6.0_sim_medians.png" target="_blank"><img src="resources/scatter_1day_m6.0_sim_medians.png" alt="chart" /></a></td></tr>
+<tr><td><strong>M&ge;7.0</strong></td><td><em>(N/A)</em></td><td><em>(N/A)</em></td></tr>
+</tbody>
+</table>
+<h3 id="1-week-scatters">1 Week Scatters</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<table>
+<thead>
+<tr><th>Min Mag</th><th>Mean Simulation Values</th><th>Median Simulation Values</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>M&ge;2.5</strong></td><td><a href="resources/scatter_1week_m2.5_sim_means.png" target="_blank"><img src="resources/scatter_1week_m2.5_sim_means.png" alt="chart" /></a></td><td><a href="resources/scatter_1week_m2.5_sim_medians.png" target="_blank"><img src="resources/scatter_1week_m2.5_sim_medians.png" alt="chart" /></a></td></tr>
+<tr><td><strong>M&ge;3.0</strong></td><td><a href="resources/scatter_1week_m3.0_sim_means.png" target="_blank"><img src="resources/scatter_1week_m3.0_sim_means.png" alt="chart" /></a></td><td><a href="resources/scatter_1week_m3.0_sim_medians.png" target="_blank"><img src="resources/scatter_1week_m3.0_sim_medians.png" alt="chart" /></a></td></tr>
+<tr><td><strong>M&ge;4.0</strong></td><td><a href="resources/scatter_1week_m4.0_sim_means.png" target="_blank"><img src="resources/scatter_1week_m4.0_sim_means.png" alt="chart" /></a></td><td><a href="resources/scatter_1week_m4.0_sim_medians.png" target="_blank"><img src="resources/scatter_1week_m4.0_sim_medians.png" alt="chart" /></a></td></tr>
+<tr><td><strong>M&ge;5.0</strong></td><td><a href="resources/scatter_1week_m5.0_sim_means.png" target="_blank"><img src="resources/scatter_1week_m5.0_sim_means.png" alt="chart" /></a></td><td><a href="resources/scatter_1week_m5.0_sim_medians.png" target="_blank"><img src="resources/scatter_1week_m5.0_sim_medians.png" alt="chart" /></a></td></tr>
+<tr><td><strong>M&ge;6.0</strong></td><td><a href="resources/scatter_1week_m6.0_sim_means.png" target="_blank"><img src="resources/scatter_1week_m6.0_sim_means.png" alt="chart" /></a></td><td><a href="resources/scatter_1week_m6.0_sim_medians.png" target="_blank"><img src="resources/scatter_1week_m6.0_sim_medians.png" alt="chart" /></a></td></tr>
+<tr><td><strong>M&ge;7.0</strong></td><td><a href="resources/scatter_1week_m7.0_sim_means.png" target="_blank"><img src="resources/scatter_1week_m7.0_sim_means.png" alt="chart" /></a></td><td><a href="resources/scatter_1week_m7.0_sim_medians.png" target="_blank"><img src="resources/scatter_1week_m7.0_sim_medians.png" alt="chart" /></a></td></tr>
+</tbody>
+</table>
+<h3 id="1-month-scatters">1 Month Scatters</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<table>
+<thead>
+<tr><th>Min Mag</th><th>Mean Simulation Values</th><th>Median Simulation Values</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>M&ge;2.5</strong></td><td><a href="resources/scatter_1month_m2.5_sim_means.png" target="_blank"><img src="resources/scatter_1month_m2.5_sim_means.png" alt="chart" /></a></td><td><a href="resources/scatter_1month_m2.5_sim_medians.png" target="_blank"><img src="resources/scatter_1month_m2.5_sim_medians.png" alt="chart" /></a></td></tr>
+<tr><td><strong>M&ge;3.0</strong></td><td><a href="resources/scatter_1month_m3.0_sim_means.png" target="_blank"><img src="resources/scatter_1month_m3.0_sim_means.png" alt="chart" /></a></td><td><a href="resources/scatter_1month_m3.0_sim_medians.png" target="_blank"><img src="resources/scatter_1month_m3.0_sim_medians.png" alt="chart" /></a></td></tr>
+<tr><td><strong>M&ge;4.0</strong></td><td><a href="resources/scatter_1month_m4.0_sim_means.png" target="_blank"><img src="resources/scatter_1month_m4.0_sim_means.png" alt="chart" /></a></td><td><a href="resources/scatter_1month_m4.0_sim_medians.png" target="_blank"><img src="resources/scatter_1month_m4.0_sim_medians.png" alt="chart" /></a></td></tr>
+<tr><td><strong>M&ge;5.0</strong></td><td><a href="resources/scatter_1month_m5.0_sim_means.png" target="_blank"><img src="resources/scatter_1month_m5.0_sim_means.png" alt="chart" /></a></td><td><a href="resources/scatter_1month_m5.0_sim_medians.png" target="_blank"><img src="resources/scatter_1month_m5.0_sim_medians.png" alt="chart" /></a></td></tr>
+<tr><td><strong>M&ge;6.0</strong></td><td><a href="resources/scatter_1month_m6.0_sim_means.png" target="_blank"><img src="resources/scatter_1month_m6.0_sim_means.png" alt="chart" /></a></td><td><a href="resources/scatter_1month_m6.0_sim_medians.png" target="_blank"><img src="resources/scatter_1month_m6.0_sim_medians.png" alt="chart" /></a></td></tr>
+<tr><td><strong>M&ge;7.0</strong></td><td><a href="resources/scatter_1month_m7.0_sim_means.png" target="_blank"><img src="resources/scatter_1month_m7.0_sim_means.png" alt="chart" /></a></td><td><a href="resources/scatter_1month_m7.0_sim_medians.png" target="_blank"><img src="resources/scatter_1month_m7.0_sim_medians.png" alt="chart" /></a></td></tr>
+</tbody>
+</table>
+<h3 id="1-year-scatters">1 Year Scatters</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<table>
+<thead>
+<tr><th>Min Mag</th><th>Mean Simulation Values</th><th>Median Simulation Values</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>M&ge;2.5</strong></td><td><a href="resources/scatter_1year_m2.5_sim_means.png" target="_blank"><img src="resources/scatter_1year_m2.5_sim_means.png" alt="chart" /></a></td><td><a href="resources/scatter_1year_m2.5_sim_medians.png" target="_blank"><img src="resources/scatter_1year_m2.5_sim_medians.png" alt="chart" /></a></td></tr>
+<tr><td><strong>M&ge;3.0</strong></td><td><a href="resources/scatter_1year_m3.0_sim_means.png" target="_blank"><img src="resources/scatter_1year_m3.0_sim_means.png" alt="chart" /></a></td><td><a href="resources/scatter_1year_m3.0_sim_medians.png" target="_blank"><img src="resources/scatter_1year_m3.0_sim_medians.png" alt="chart" /></a></td></tr>
+<tr><td><strong>M&ge;4.0</strong></td><td><a href="resources/scatter_1year_m4.0_sim_means.png" target="_blank"><img src="resources/scatter_1year_m4.0_sim_means.png" alt="chart" /></a></td><td><a href="resources/scatter_1year_m4.0_sim_medians.png" target="_blank"><img src="resources/scatter_1year_m4.0_sim_medians.png" alt="chart" /></a></td></tr>
+<tr><td><strong>M&ge;5.0</strong></td><td><a href="resources/scatter_1year_m5.0_sim_means.png" target="_blank"><img src="resources/scatter_1year_m5.0_sim_means.png" alt="chart" /></a></td><td><a href="resources/scatter_1year_m5.0_sim_medians.png" target="_blank"><img src="resources/scatter_1year_m5.0_sim_medians.png" alt="chart" /></a></td></tr>
+<tr><td><strong>M&ge;6.0</strong></td><td><a href="resources/scatter_1year_m6.0_sim_means.png" target="_blank"><img src="resources/scatter_1year_m6.0_sim_means.png" alt="chart" /></a></td><td><a href="resources/scatter_1year_m6.0_sim_medians.png" target="_blank"><img src="resources/scatter_1year_m6.0_sim_medians.png" alt="chart" /></a></td></tr>
+<tr><td><strong>M&ge;7.0</strong></td><td><a href="resources/scatter_1year_m7.0_sim_means.png" target="_blank"><img src="resources/scatter_1year_m7.0_sim_means.png" alt="chart" /></a></td><td><a href="resources/scatter_1year_m7.0_sim_medians.png" target="_blank"><img src="resources/scatter_1year_m7.0_sim_medians.png" alt="chart" /></a></td></tr>
+</tbody>
+</table>
+<h2 id="data-divergence-over-time">Data Divergence Over Time</h2>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>These plots show how the actual event count diverges from the simulated mean/median prediction as a function of time from simulation start. Each individual thin line represents a unique week, colored by year; mean and median divergence are overlaid with thick lines.</p>
+<h3 id="cumulative-divergence-plots">Cumulative Divergence Plots</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>These plots show cumulative divergence from the start of the simulation.</p>
+<table>
+<thead>
+<tr><th>Min Mag</th><th>Mean Simulation Values</th><th>Median Simulation Values</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>M&ge;2.5</strong></td><td><a href="resources/cumulative_m2.5_sim_means.png" target="_blank"><img src="resources/cumulative_m2.5_sim_means.png" alt="chart" /></a></td><td><a href="resources/cumulative_m2.5_sim_medians.png" target="_blank"><img src="resources/cumulative_m2.5_sim_medians.png" alt="chart" /></a></td></tr>
+<tr><td><strong>M&ge;3.0</strong></td><td><a href="resources/cumulative_m3.0_sim_means.png" target="_blank"><img src="resources/cumulative_m3.0_sim_means.png" alt="chart" /></a></td><td><a href="resources/cumulative_m3.0_sim_medians.png" target="_blank"><img src="resources/cumulative_m3.0_sim_medians.png" alt="chart" /></a></td></tr>
+<tr><td><strong>M&ge;4.0</strong></td><td><a href="resources/cumulative_m4.0_sim_means.png" target="_blank"><img src="resources/cumulative_m4.0_sim_means.png" alt="chart" /></a></td><td><a href="resources/cumulative_m4.0_sim_medians.png" target="_blank"><img src="resources/cumulative_m4.0_sim_medians.png" alt="chart" /></a></td></tr>
+<tr><td><strong>M&ge;5.0</strong></td><td><a href="resources/cumulative_m5.0_sim_means.png" target="_blank"><img src="resources/cumulative_m5.0_sim_means.png" alt="chart" /></a></td><td><a href="resources/cumulative_m5.0_sim_medians.png" target="_blank"><img src="resources/cumulative_m5.0_sim_medians.png" alt="chart" /></a></td></tr>
+<tr><td><strong>M&ge;6.0</strong></td><td><a href="resources/cumulative_m6.0_sim_means.png" target="_blank"><img src="resources/cumulative_m6.0_sim_means.png" alt="chart" /></a></td><td><a href="resources/cumulative_m6.0_sim_medians.png" target="_blank"><img src="resources/cumulative_m6.0_sim_medians.png" alt="chart" /></a></td></tr>
+<tr><td><strong>M&ge;7.0</strong></td><td><a href="resources/cumulative_m7.0_sim_means.png" target="_blank"><img src="resources/cumulative_m7.0_sim_means.png" alt="chart" /></a></td><td><a href="resources/cumulative_m7.0_sim_medians.png" target="_blank"><img src="resources/cumulative_m7.0_sim_medians.png" alt="chart" /></a></td></tr>
+</tbody>
+</table>
+<h3 id="daily-incremental-divergence-plots">Daily Incremental Divergence Plots</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>These plots show incremental divergence binned by day.</p>
+<table>
+<thead>
+<tr><th>Min Mag</th><th>Mean Simulation Values</th><th>Median Simulation Values</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>M&ge;2.5</strong></td><td><a href="resources/incremental_m2.5_sim_means.png" target="_blank"><img src="resources/incremental_m2.5_sim_means.png" alt="chart" /></a></td><td><a href="resources/incremental_m2.5_sim_medians.png" target="_blank"><img src="resources/incremental_m2.5_sim_medians.png" alt="chart" /></a></td></tr>
+<tr><td><strong>M&ge;3.0</strong></td><td><a href="resources/incremental_m3.0_sim_means.png" target="_blank"><img src="resources/incremental_m3.0_sim_means.png" alt="chart" /></a></td><td><a href="resources/incremental_m3.0_sim_medians.png" target="_blank"><img src="resources/incremental_m3.0_sim_medians.png" alt="chart" /></a></td></tr>
+<tr><td><strong>M&ge;4.0</strong></td><td><a href="resources/incremental_m4.0_sim_means.png" target="_blank"><img src="resources/incremental_m4.0_sim_means.png" alt="chart" /></a></td><td><a href="resources/incremental_m4.0_sim_medians.png" target="_blank"><img src="resources/incremental_m4.0_sim_medians.png" alt="chart" /></a></td></tr>
+<tr><td><strong>M&ge;5.0</strong></td><td><a href="resources/incremental_m5.0_sim_means.png" target="_blank"><img src="resources/incremental_m5.0_sim_means.png" alt="chart" /></a></td><td><a href="resources/incremental_m5.0_sim_medians.png" target="_blank"><img src="resources/incremental_m5.0_sim_medians.png" alt="chart" /></a></td></tr>
+<tr><td><strong>M&ge;6.0</strong></td><td><a href="resources/incremental_m6.0_sim_means.png" target="_blank"><img src="resources/incremental_m6.0_sim_means.png" alt="chart" /></a></td><td><a href="resources/incremental_m6.0_sim_medians.png" target="_blank"><img src="resources/incremental_m6.0_sim_medians.png" alt="chart" /></a></td></tr>
+<tr><td><strong>M&ge;7.0</strong></td><td><a href="resources/incremental_m7.0_sim_means.png" target="_blank"><img src="resources/incremental_m7.0_sim_means.png" alt="chart" /></a></td><td><a href="resources/incremental_m7.0_sim_medians.png" target="_blank"><img src="resources/incremental_m7.0_sim_medians.png" alt="chart" /></a></td></tr>
+</tbody>
+</table>
+</article>
+</html>
