@@ -39,8 +39,8 @@ Scatter plots of the actual event count (x-axis) vs the simulation mean or media
 | **M&ge;2.5** | ![chart](resources/scatter_1day_m2.5_sim_means.png) | ![chart](resources/scatter_1day_m2.5_sim_medians.png) | ![chart](resources/scatter_1day_m2.5_indv_catalogs.png) |
 | **M&ge;3.0** | ![chart](resources/scatter_1day_m3.0_sim_means.png) | ![chart](resources/scatter_1day_m3.0_sim_medians.png) | ![chart](resources/scatter_1day_m3.0_indv_catalogs.png) |
 | **M&ge;4.0** | ![chart](resources/scatter_1day_m4.0_sim_means.png) | ![chart](resources/scatter_1day_m4.0_sim_medians.png) | ![chart](resources/scatter_1day_m4.0_indv_catalogs.png) |
-| **M&ge;5.0** | *(N/A)* | *(N/A)* | *(N/A)* |
-| **M&ge;6.0** | *(N/A)* | *(N/A)* | *(N/A)* |
+| **M&ge;5.0** | ![chart](resources/scatter_1day_m5.0_sim_means.png) | ![chart](resources/scatter_1day_m5.0_sim_medians.png) | ![chart](resources/scatter_1day_m5.0_indv_catalogs.png) |
+| **M&ge;6.0** | ![chart](resources/scatter_1day_m6.0_sim_means.png) | ![chart](resources/scatter_1day_m6.0_sim_medians.png) | ![chart](resources/scatter_1day_m6.0_indv_catalogs.png) |
 | **M&ge;7.0** | *(N/A)* | *(N/A)* | *(N/A)* |
 
 ### 1 Week Scatters
@@ -53,7 +53,7 @@ Scatter plots of the actual event count (x-axis) vs the simulation mean or media
 | **M&ge;4.0** | ![chart](resources/scatter_1week_m4.0_sim_means.png) | ![chart](resources/scatter_1week_m4.0_sim_medians.png) | ![chart](resources/scatter_1week_m4.0_indv_catalogs.png) |
 | **M&ge;5.0** | ![chart](resources/scatter_1week_m5.0_sim_means.png) | ![chart](resources/scatter_1week_m5.0_sim_medians.png) | ![chart](resources/scatter_1week_m5.0_indv_catalogs.png) |
 | **M&ge;6.0** | ![chart](resources/scatter_1week_m6.0_sim_means.png) | ![chart](resources/scatter_1week_m6.0_sim_medians.png) | ![chart](resources/scatter_1week_m6.0_indv_catalogs.png) |
-| **M&ge;7.0** | *(N/A)* | *(N/A)* | *(N/A)* |
+| **M&ge;7.0** | ![chart](resources/scatter_1week_m7.0_sim_means.png) | ![chart](resources/scatter_1week_m7.0_sim_medians.png) | ![chart](resources/scatter_1week_m7.0_indv_catalogs.png) |
 
 ### 1 Month Scatters
 *[(top)](#table-of-contents)*
@@ -65,7 +65,7 @@ Scatter plots of the actual event count (x-axis) vs the simulation mean or media
 | **M&ge;4.0** | ![chart](resources/scatter_1month_m4.0_sim_means.png) | ![chart](resources/scatter_1month_m4.0_sim_medians.png) | ![chart](resources/scatter_1month_m4.0_indv_catalogs.png) |
 | **M&ge;5.0** | ![chart](resources/scatter_1month_m5.0_sim_means.png) | ![chart](resources/scatter_1month_m5.0_sim_medians.png) | ![chart](resources/scatter_1month_m5.0_indv_catalogs.png) |
 | **M&ge;6.0** | ![chart](resources/scatter_1month_m6.0_sim_means.png) | ![chart](resources/scatter_1month_m6.0_sim_medians.png) | ![chart](resources/scatter_1month_m6.0_indv_catalogs.png) |
-| **M&ge;7.0** | *(N/A)* | *(N/A)* | *(N/A)* |
+| **M&ge;7.0** | ![chart](resources/scatter_1month_m7.0_sim_means.png) | ![chart](resources/scatter_1month_m7.0_sim_medians.png) | ![chart](resources/scatter_1month_m7.0_indv_catalogs.png) |
 
 ### 1 Year Scatters
 *[(top)](#table-of-contents)*
@@ -77,7 +77,7 @@ Scatter plots of the actual event count (x-axis) vs the simulation mean or media
 | **M&ge;4.0** | ![chart](resources/scatter_1year_m4.0_sim_means.png) | ![chart](resources/scatter_1year_m4.0_sim_medians.png) | ![chart](resources/scatter_1year_m4.0_indv_catalogs.png) |
 | **M&ge;5.0** | ![chart](resources/scatter_1year_m5.0_sim_means.png) | ![chart](resources/scatter_1year_m5.0_sim_medians.png) | ![chart](resources/scatter_1year_m5.0_indv_catalogs.png) |
 | **M&ge;6.0** | ![chart](resources/scatter_1year_m6.0_sim_means.png) | ![chart](resources/scatter_1year_m6.0_sim_medians.png) | ![chart](resources/scatter_1year_m6.0_indv_catalogs.png) |
-| **M&ge;7.0** | *(N/A)* | *(N/A)* | *(N/A)* |
+| **M&ge;7.0** | ![chart](resources/scatter_1year_m7.0_sim_means.png) | ![chart](resources/scatter_1year_m7.0_sim_medians.png) | ![chart](resources/scatter_1year_m7.0_indv_catalogs.png) |
 
 ## Data Divergence Over Time
 *[(top)](#table-of-contents)*
