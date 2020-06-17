@@ -8,6 +8,10 @@
   * [1 Week Scatters](#1-week-scatters)
   * [1 Month Scatters](#1-month-scatters)
   * [1 Year Scatters](#1-year-scatters)
+* [Daily Comparisons](#daily-comparisons)
+  * [Daily Probabilitites](#daily-probabilitites)
+  * [Daily Medians and 95% Conf](#daily-medians-and-95-conf)
+  * [Daily Means](#daily-means)
 * [Data Divergence Over Time](#data-divergence-over-time)
   * [Cumulative Divergence Plots](#cumulative-divergence-plots)
   * [Daily Incremental Divergence Plots](#daily-incremental-divergence-plots)
@@ -78,6 +82,24 @@ Scatter plots of the actual event count (x-axis) vs the simulation mean or media
 | **M&ge;5.0** | ![chart](resources/scatter_1year_m5.0_sim_means.png) | ![chart](resources/scatter_1year_m5.0_sim_medians.png) | ![chart](resources/scatter_1year_m5.0_indv_catalogs.png) |
 | **M&ge;6.0** | ![chart](resources/scatter_1year_m6.0_sim_means.png) | ![chart](resources/scatter_1year_m6.0_sim_medians.png) | ![chart](resources/scatter_1year_m6.0_indv_catalogs.png) |
 | **M&ge;7.0** | ![chart](resources/scatter_1year_m7.0_sim_means.png) | ![chart](resources/scatter_1year_m7.0_sim_medians.png) | ![chart](resources/scatter_1year_m7.0_indv_catalogs.png) |
+
+## Daily Comparisons
+*[(top)](#table-of-contents)*
+
+### Daily Probabilitites
+*[(top)](#table-of-contents)*
+
+![Daily Plot](resources/daily_PROB.png)
+
+### Daily Medians and 95% Conf
+*[(top)](#table-of-contents)*
+
+![Daily Plot](resources/daily_MEDIAN.png)
+
+### Daily Means
+*[(top)](#table-of-contents)*
+
+![Daily Plot](resources/daily_MEAN.png)
 
 ## Data Divergence Over Time
 *[(top)](#table-of-contents)*
