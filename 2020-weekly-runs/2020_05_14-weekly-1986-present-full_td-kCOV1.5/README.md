@@ -3,6 +3,7 @@
 ## Table Of Contents
 
 * [Data Percentile Histograms](#data-percentile-histograms)
+* [Data 95% Confidence Comparisons](#data-95-confidence-comparisons)
 * [Data vs Model Count Scatters](#data-vs-model-count-scatters)
   * [1 Day Scatters](#1-day-scatters)
   * [1 Week Scatters](#1-week-scatters)
@@ -29,6 +30,18 @@ Histogram of the percentile of the actual event count within the simulation dist
 | **M&ge;5.0** | ![chart](resources/percentile_1day_m5.0.png) | ![chart](resources/percentile_1week_m5.0.png) | ![chart](resources/percentile_1month_m5.0.png) | ![chart](resources/percentile_1year_m5.0.png) |
 | **M&ge;6.0** | ![chart](resources/percentile_1day_m6.0.png) | ![chart](resources/percentile_1week_m6.0.png) | ![chart](resources/percentile_1month_m6.0.png) | ![chart](resources/percentile_1year_m6.0.png) |
 | **M&ge;7.0** | ![chart](resources/percentile_1day_m7.0.png) | ![chart](resources/percentile_1week_m7.0.png) | ![chart](resources/percentile_1month_m7.0.png) | ![chart](resources/percentile_1year_m7.0.png) |
+
+## Data 95% Confidence Comparisons
+*[(top)](#table-of-contents)*
+
+This plots the percentage of observations which are outside (black lines), below (blue lines), or above (red lines) the simulations 95% confidence interval.
+
+| Duration | Plot |
+|-----|-----|
+| **1 Day** | ![chart](resources/conf_bounds_1day.png) |
+| **1 Week** | ![chart](resources/conf_bounds_1week.png) |
+| **1 Month** | ![chart](resources/conf_bounds_1month.png) |
+| **1 Year** | ![chart](resources/conf_bounds_1year.png) |
 
 ## Data vs Model Count Scatters
 *[(top)](#table-of-contents)*
